@@ -4,7 +4,7 @@ Typescript implementation of [Distributed Logical Time](https://longform.asmartb
 
 Features:
 
-* Timestamp fits into a Javascript `number`, as a precise integer (i.e. less than 2^53 bits).
+* Timestamp fits into a Javascript `number`, as a precise integer (i.e. less than 2<sup>53</sup> bits).
 * Extremely fast, because system-time is read only occasionally.
 * No other library dependencies.
 
